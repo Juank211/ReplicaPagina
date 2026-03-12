@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Arquitectura de Flujo</title>
+    <title>Juan Camilo López | Senior Frontend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +13,7 @@
     <div class="main-container">
 
         <header>
-            <div class="header-name">JUAN CAMILO LOPEZ RUA</div>
+            <div class="header-name">Juan Camilo López Rua</div>
             <nav class="header-nav">
                 <a href="#sobre-mi">Inicio</a>
                 <a href="#perfil">Perfil</a>
@@ -22,30 +22,43 @@
         </header>
 
         <main>
+            <!-- SECCIÓN SOBRE MÍ (Con botón Leer Más) -->
             <section id="sobre-mi" class="hero-text">
                 <h1>Desarrollador Front-end Senior</h1>
                 <p class="subtitle">Especialista en Arquitectura de CSS y Rendimiento Web</p>
+
                 <div class="bio-container">
                     <img src="ProfileImage.jpg.avif" alt="Perfil Principal" class="main-profile-img">
 
-                    <p>
-                        Soy Juan Camilo (o simplemente Juank), un apasionado de la tecnología y estudiante de Análisis y Desarrollo de Software en el SENA. Mi enfoque está en la arquitectura de CSS y el rendimiento web, buscando siempre que el código sea tan limpio y estético como la interfaz que ve el usuario. Como retirado militar, aplico la disciplina y la atención al detalle en cada línea de código que escribo desde mi base en San Gil, Santander.
-                    </p>
+                    <div class="bio-content-wrapper">
+                        <div id="bio-text" class="collapsible-text">
+                            <p>
+                                Soy Juan Camilo (o simplemente Juank), un apasionado de la tecnología y estudiante de Análisis y Desarrollo de Software en el SENA. Mi enfoque está en la arquitectura de CSS y el rendimiento web, buscando siempre que el código sea tan limpio y estético como la interfaz que ve el usuario.
+                                Mi formación militar me brindó disciplina; soy un fiel creyente de que el aprendizaje constante es la mejor herramienta de un programador. Mi base se encuentra en San Gil, Santander, desde donde aplico atención al detalle en cada línea de código.
+                            </p>
+                        </div>
+                        <button id="read-more-btn" class="read-more-btn">Leer más</button>
+                    </div>
                 </div>
             </section>
 
+            <!-- SECCIÓN PERFIL (Imagen Circular) -->
             <section id="perfil" class="profile-section">
                 <div class="profile-circle-container">
-                    <img src="profile.png" alt="Dibujo Principal" class="main-profile-img">
+                    <img src="profile.png" alt="Perfil Dibujado" class="main-profile-img">
                     <div class="bio-container">
-                        Mi viaje en el desarrollo de software comenzó con el deseo de construir soluciones digitales sólidas y escalables. Actualmente, me especializo en el ecosistema de JavaScript, Python y SQL, con una fuerte inclinación hacia el desarrollo Full-stack. Me encanta enfrentar retos técnicos que requieran optimización pura (como maquetar sin depender de flexbox o posicionamientos forzados) y soy un fiel creyente de que el aprendizaje constante es la mejor herramienta de un programador. Cuando no estoy codeando en mi MacBook, probablemente me encuentres recorriendo las rutas de Santander en mi bicicleta.
+                        <p>
+                            Mi viaje en el desarrollo de software comenzó con el deseo de construir soluciones digitales sólidas y escalables. Actualmente, me especializo en el ecosistema de JavaScript, Python y SQL. Me encanta enfrentar retos técnicos que requieran optimización pura y soy un apasionado de crear componentes que no dependan exclusivamente de librerías, sino de un profundo entendimiento del estándar web.
+                        </p>
+                        <br>
+                        "Juan Camilo Lopez Rua"
                     </div>
-
                 </div>
             </section>
 
             <div class="divider"></div>
 
+            <!-- SECCIÓN PROYECTOS (Grid Fluido y Centrado) -->
             <section id="proyectos" class="projects-grid">
                 <h2>Proyectos Destacados</h2>
 
@@ -57,7 +70,7 @@
                         </div>
                         <div class="card-body">
                             <h3>Replica de Portafolio Senior</h3>
-                            <p>Un ejercicio de arquitectura CSS pura donde logré recrear una interfaz profesional de alto impacto visual utilizando únicamente el flujo normal del documento. Es una prueba de dominio sobre el Box Model y la semántica HTML5.</p>
+                            <p>Ejercicio de arquitectura CSS pura recreando una interfaz profesional con control total del flujo del documento.</p>
                             <a href="#" class="btn-small">Ver proyecto</a>
                         </div>
                     </article>
@@ -68,33 +81,33 @@
                         </div>
                         <div class="card-body">
                             <h3>Gestor de Tareas Full-stack</h3>
-                            <p>Aplicación desarrollada para poner en práctica la integración de lógica en JavaScript con bases de datos SQL, permitiendo la gestión dinámica de actividades con una interfaz intuitiva y minimalista.</p>
+                            <p>Integración de JS con SQL para una aplicación dinámica de gestión de actividades con UI minimalista.</p>
                             <a href="#" class="btn-small">Ver proyecto</a>
                         </div>
                     </article>
-                    
+
                     <article class="project-card">
                         <div class="img-placeholder">
                             <img src="proyecto3.jpg.webp" alt="Proyecto 3">
                         </div>
                         <div class="card-body">
-                            <h3>Sistema de Visualización de Datos Deportivos</h3>
-                            <p>Un proyecto nacido de mi afición por el fútbol, donde utilizo APIs para rastrear y mostrar el desempeño de jugadores colombianos en el exterior, enfocándome en la manipulación eficiente del DOM.</p>
+                            <h3>Visualización de Datos</h3>
+                            <p>Utilización de APIs externas para rastrear y visualizar desempeño deportivo en tiempo real.</p>
                             <a href="#" class="btn-small">Ver proyecto</a>
                         </div>
                     </article>
-                    
+
                     <article class="project-card">
                         <div class="img-placeholder">
                             <img src="proyecto4.jpg.webp" alt="Proyecto 4">
                         </div>
                         <div class="card-body">
-                            <h3>Configuración de Entorno AI para Fieldwork</h3>
-                            <p>Implementación técnica de herramientas de inteligencia artificial avanzada (como DeepSeek y plataformas de notebooks) optimizadas para realizar tareas de análisis y recolección de datos en campo en la región de San Gil..</p>
+                            <h3>Entorno AI Fieldwork</h3>
+                            <p>Optimización técnica de plataformas de Inteligencia Artificial para análisis de datos regionales.</p>
                             <a href="#" class="btn-small">Ver proyecto</a>
                         </div>
                     </article>
-                    
+
                 </div>
             </section>
 
@@ -105,6 +118,19 @@
         </footer>
 
     </div>
+
+    <!-- SCRIPT PARA EL BOTÓN LEER MÁS -->
+    <script>
+        const btn = document.getElementById('read-more-btn');
+        const textArea = document.getElementById('bio-text');
+
+        if (btn && textArea) {
+            btn.addEventListener('click', () => {
+                textArea.classList.toggle('expanded');
+                btn.textContent = textArea.classList.contains('expanded') ? 'Leer menos' : 'Leer más';
+            });
+        }
+    </script>
 
 </body>
 
